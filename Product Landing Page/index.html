@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        id="header-img"
+      />
+
+      <nav id="nav-bar">
+        <a class="nav-link" href="#Features">Features</a>
+        <a class="nav-link" href="#How-It-Works">How It Works</a>
+        <a class="nav-link" href="#Pricing">Pricing</a>
+      </nav>
+    </header>
+
+    <main id="How-It-Works" class="main">
+      <h1>Handcrafted, home-made masterpieces</h1>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          class="input-email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+
+      <div class="feature" id="Features">
+        <div class="feature-container">
+          <div class="feature-img">
+            <i class="bx bxs-hot"></i>
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">Premium Materials</h2>
+            <p class="feature-info">
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-container">
+          <div class="feature-img">
+            <i class="bx bxs-package"></i>
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">Fast Shipping</h2>
+            <p class="feature-info">
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-container">
+          <div class="feature-img">
+            <i class="bx bxs-battery"></i>
+          </div>
+          <div class="feature-content">
+            <h2 class="feature-title">Quality Assurance</h2>
+            <p class="feature-info">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="Roman Carnival Overture Op. 9 for Five Trombones"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </main>
+
+    <section id="Pricing" class="pricing">
+      <div class="pricing-card">
+        <h3 class="pricing-title">Tenor trombone</h3>
+        <p class="pricing-rate">$600</p>
+        <p class="pricing-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          amet.
+        </p>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="pricing-card">
+        <h3 class="pricing-title">Bass Trombone</h3>
+        <p class="pricing-rate">$900</p>
+        <p class="pricing-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          amet.
+        </p>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="pricing-card">
+        <h3 class="pricing-title">Valve trombone</h3>
+        <p class="pricing-rate">$1200</p>
+        <p class="pricing-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          amet.
+        </p>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <nav class="footer-nav">
+        <ul class="footer-list">
+          <li class="footer-item">Privacy</li>
+          <li class="footer-item">Terms</li>
+          <li class="footer-item">Contact</li>
+        </ul>
+        <p class="footer-copyright">Copyright 2016 , Original Trombones</p>
+      </nav>
+    </footer>
+  </body>
+</html>
