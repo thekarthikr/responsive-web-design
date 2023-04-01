@@ -3,7 +3,7 @@
 Hello there! I'm excited to share my experience with the Responsive Web Design course offered by FreeCodeCamp. In this course, I was able to review and reinforce my HTML and CSS skills by building responsive websites.
 
 ## Course Overview
-The course was designed by FreeCodeCamp to help me refresh and reinforce my knowledge of responsive web design principles. It covered how to use HTML and CSS to create web pages that can adapt to different screen sizes, from desktops to mobile devices. The course was broken down into several sections, each covering a different aspect of web design.
+The course was designed by FreeCodeCamp. It helped me to  refresh and reinforce my knowledge of responsive web design principles. It covered how to use HTML and CSS to create web pages that can adapt to different screen sizes, from desktops to mobile devices. The course was broken down into several sections, each covering a different aspect of web design.
 
 ## Prerequisites
 Since I already had prior knowledge of HTML and CSS, I was able to skip the Basic HTML and Basic CSS courses. However, I still reviewed the course materials to refresh my knowledge and ensure that I had a solid foundation for the more advanced topics covered in this course.
